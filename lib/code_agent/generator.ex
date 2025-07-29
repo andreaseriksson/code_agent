@@ -3,6 +3,8 @@ defmodule CodeAgent.Generator do
     source_dir = Path.join([:code.priv_dir(:code_agent), agent_name])
     target_dir = ".#{agent_name}"
 
+    Mix.shell().info("Looking for templates in: #{source_dir}")
+
     if File.exists?(source_dir) do
       File.mkdir_p!(target_dir)
       copy_recursive(source_dir, target_dir)

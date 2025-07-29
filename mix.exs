@@ -27,7 +27,8 @@ defmodule CodeAgent.MixProject do
     [
       maintainers: ["Your Name"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/yourusername/code_agent"}
+      links: %{"GitHub" => "https://github.com/yourusername/code_agent"},
+      files: ["lib", "priv", "mix.exs", "README.md", "LICENSE"]
     ]
   end
 end
