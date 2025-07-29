@@ -4,7 +4,7 @@ defmodule CodeAgent.MixProject do
   def project do
     [
       app: :code_agent,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.18",
       description: "Mix tasks for generating AI agent configurations",
       package: package(),
